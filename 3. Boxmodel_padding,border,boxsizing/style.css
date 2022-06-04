@@ -1,0 +1,18 @@
+div{
+	width: 600px;
+	margin: 20px auto;
+	box-sizing: border-box;
+	/* boxsizing untuk menentapkan ukuran */
+}
+
+.satu{
+	background-color: lightblue;
+	border: 10px solid blueviolet;
+	padding: 5px;
+}
+
+.dua{
+	background-color: lightcyan;
+	border: 5px dashed khaki;
+	padding :20px;
+}
