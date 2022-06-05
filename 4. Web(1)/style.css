@@ -1,0 +1,88 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(more-leaves.png);
+	font-family: "roboto", sans-serif;
+}
+.container{
+	width: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+.header h1{
+	padding: 20px;
+}
+
+.header .judul{
+	color: crimson;
+}
+
+.header ul {
+	background-color: black;
+	height: 60px;
+	padding: 10px;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.header ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 8px;
+	
+}
+
+.header li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	text-transform: capitalize;
+	
+}
+
+.header li a:hover{
+	background-color: crimson;
+	color: whitesmoke;
+}
+
+.hero{
+	height: 280px;
+	background-image: url(hero.jpg);
+	background-size: cover;
+	background-position: 0 -130px;
+	border-top: 5px solid crimson;
+	border-bottom: 5px solid gray;
+}
+
+.content {
+	padding: 20px;
+}
+
+.content .penulis{
+	font-size: 10px;
+}
+
+.content .penulis a{
+	text-decoration: none;
+	color: crimson;
+}
+
+.content p{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.footer{
+	background-color: grey;
+	padding: 10px;
+}
+.footer .copy{
+	font-size: 12px;
+	text-align: center;
+	color: whitesmoke;
+}
