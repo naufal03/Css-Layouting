@@ -1,0 +1,138 @@
+*, html, body{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(more-leaves.png);
+	font-family: "roboto", sans-serif;
+}
+.container{
+	width: 960px;
+	margin: auto;
+	background-color: white;
+}
+
+p{
+	text-align: justify;
+}
+
+.header h1{
+	padding: 20px;
+}
+
+.header .judul{
+	color: crimson;
+}
+
+.header ul {
+	background-color: black;
+	height: 60px;
+	padding: 10px;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.header ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 8px;
+	
+}
+
+.header li a {
+	text-decoration: none;
+	color: white;
+	padding: 5px;
+	text-transform: capitalize;
+	
+}
+
+.header li a:hover{
+	background-color: crimson;
+	color: whitesmoke;
+}
+
+.active{
+	background-color: crimson;
+}
+
+.hero{
+	height: 320px;
+	background-image: url(hero.jpg);
+	background-size: cover;
+	background-position: 0 -160px;
+	border-top: 5px solid crimson;
+	border-bottom: 5px solid gray;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+}
+
+.main .penulis{
+	font-size: 10px;
+}
+
+.main .penulis a{
+	text-decoration: none;
+	color: crimson;
+}
+
+.main p{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+.sidebar{
+	width: 300px;
+	float: right;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.sidebar img{
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding: 10px;
+}
+.sidebar p{
+	font-size: 14px;
+	line-height: 18px;
+}
+
+
+.footer{
+	background-color: grey;
+	padding: 10px;
+}
+.footer .copy{
+	font-size: 12px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+
+/* clearfix */
+.cf:before,
+ .cf:after {
+		 content: " "; /* 1 */
+		 display: table; /* 2 */
+ }
+ 
+ .cf:after {
+		 clear: both;
+ }
+ 
+ /**
+	* For IE 6/7 only
+	* Include this rule to trigger hasLayout and contain floats.
+	*/
+ .cf {
+		 *zoom: 1;
+ }
