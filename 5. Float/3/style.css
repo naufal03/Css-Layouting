@@ -1,0 +1,27 @@
+.container{
+	width: 800px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+
+.kiri{
+	width: 150px;
+	background-color: cadetblue;
+	float: left;
+	height: 500px;
+}
+
+.tengah{
+	width: 500px;
+	background-color: darkolivegreen;
+	float: left;
+	height: 500px;
+}
+
+.kanan{
+	width: 150px;
+	background-color: khaki;
+	float: left;
+	height: 500px;
+}
